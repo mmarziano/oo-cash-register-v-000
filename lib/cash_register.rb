@@ -35,7 +35,7 @@ attr_accessor :total, :quantity, :cash_register_with_discount, :title, :price, :
   end 
   
   def void_last_transaction
-    @total.pop
+    @total = 0
   end 
   
 end 
